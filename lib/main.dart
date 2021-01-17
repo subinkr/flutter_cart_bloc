@@ -9,6 +9,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   final _cartBloc = CartBloc();
+
   @override
   Widget build(BuildContext context) {
     return BlocProvider(bloc: _cartBloc,
