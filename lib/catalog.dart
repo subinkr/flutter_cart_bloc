@@ -58,7 +58,8 @@ class _CatalogState extends State<Catalog> {
                 cartBloc.dispatch(CartEvent(CartEventType.add, item));
               }
             });
-          },),
+          },
+        ),
       ),
       padding: const EdgeInsets.all(8),
     );

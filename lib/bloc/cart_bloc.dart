@@ -29,5 +29,4 @@ class CartBloc extends Bloc<CartEvent, List<Item>> {
     }
     yield currentState;
   }
-
 }

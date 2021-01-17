@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_cart_bloc/bloc/cart_bloc.dart';
-import 'package:flutter_cart_bloc/item.dart';
 
 class Cart extends StatefulWidget {
   @override
